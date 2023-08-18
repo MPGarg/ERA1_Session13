@@ -13,9 +13,9 @@ In notebook ERA1_S13.ipynb [link](ERA1_S13.ipynb) functions from the main reposi
 Model was trained for 40 epochs using OneCycle Scheduler. 
 
 **Accuracy for model:**
-Class accuracy is: 78.290955%
-No obj accuracy is: 97.919060%
-Obj accuracy is: 65.142708%
+* Class accuracy is: 78.290955%
+* No obj accuracy is: 97.919060%
+* Obj accuracy is: 65.142708%
 
 ### Accuracy & Loss Curve
 

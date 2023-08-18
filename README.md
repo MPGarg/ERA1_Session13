@@ -1,46 +1,30 @@
-# Session-12 Assignment
+# Session-13 Assignment
 
 ## Problem Statement
 
-![image](https://github.com/MPGarg/ERA1_Session12/assets/120099863/192fce1e-ccad-41c6-97ad-4a4bebc8eee8)
+![image](https://github.com/MPGarg/ERA1_Session13/assets/120099863/6879ef1b-b8f2-46bc-a9a0-41cd304730c0)
 
 ## Code Details
 
-All classes & functions are defined in [link](https://github.com/MPGarg/ERA1_main_repo). 
+All classes & functions are defined in [link](https://github.com/MPGarg/ERA1_Session13). 
 
-In notebook ERA1_S12.ipynb [link](ERA1_S12.ipynb) functions from the main repository are called. Custom Resnet (Session-10) is trainined using PyTorch-Lightning.
+In notebook ERA1_S13.ipynb [link](ERA1_S13.ipynb) functions from the main repository are called. YOLOV3 is trainined using PyTorch-Lightning.
 
-pl.LightningDataModule is inherited to implement our augmentation on dataset. Following funtions of class are implemented:
-* __init__
-* prepare_data
-* setup
-* train_dataloader
-* val_dataloader
-* test_dataloader
+Model was trained for 40 epochs using OneCycle Scheduler. 
 
-For LightningModule following functions are implemented:
-* __init__
-* forward
-* training_step
-* evaluate
-* validation_step
-* test_step
-* configure_optimizers
-
-Model was trained for 24 epochs using OneCycle Scheduler. Test accuracy of 91.67% was achieved by end of training.
+**Accuracy for model:**
+Class accuracy is: 78.290955%
+No obj accuracy is: 97.919060%
+Obj accuracy is: 65.142708%
 
 ### Accuracy & Loss Curve
 
-![image](https://github.com/MPGarg/ERA1_Session12/assets/120099863/98c58626-1f26-40fe-8fff-9496668b6595)
-
-### Misclassified Images
-
-![image](https://github.com/MPGarg/ERA1_Session12/assets/120099863/5cf339a3-d7c3-480d-ab82-268837ab17d2)
+![image](https://github.com/MPGarg/ERA1_Session13/assets/120099863/2eeb489d-0eb3-40d4-83c7-b5cfa2cc18f2)
 
 ## Hugging face App 
 
 App is created on hugging face for this model:
-https://huggingface.co/spaces/MadhurGarg/PyTorch-Lightning
+https://huggingface.co/spaces/MadhurGarg/YOLOV3_PyTorch_Lightning
 
 ## Conclusion
 

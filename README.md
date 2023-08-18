@@ -26,9 +26,3 @@ Obj accuracy is: 65.142708%
 App is created on hugging face for this model:
 https://huggingface.co/spaces/MadhurGarg/YOLOV3_PyTorch_Lightning
 
-## Conclusion
-
-* Pytorch-lightning reduces effort on training the model.
-* Augmented dataset can be passed in data module and it will create loader for it.
-* We need not to mention device on which model needs to be trained. It is taken care by pytorch-lightning
-* Hugging face app helps us visualize results and make model presentable
